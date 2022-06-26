@@ -86,3 +86,12 @@ bool buddyStrings(string str, string goal) {
 		return true;
 	}
 }
+
+int main() {
+
+	if (buddyStrings("abcd","cbad"))
+		cout << "Success";
+	else
+		cout << "Failed";
+	return 0;
+}
